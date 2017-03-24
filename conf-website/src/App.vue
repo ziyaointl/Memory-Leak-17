@@ -4,7 +4,7 @@
     <nav class="nav">
       <div class="nav-left">
         <a class="nav-item">
-          <h1>I/O Exception</h1>
+          <h1 id="small-logo">I/O Exception</h1>
         </a>
       </div>
 
@@ -22,6 +22,13 @@
         <a class="nav-item">About</a>
       </div>
     </nav>
+    </div>
+
+
+    <div class="container has-text-centered">
+      <h1 id="large-logo"><span id="io">I/O</span> Exception <span id="year">17</span></h1>
+      <h2 class="subtitle">Shandong Jinan</h2>
+      <h2 class="subtitle">August 9, 2017</h2>
     </div>
   </div>
 </template>
@@ -49,4 +56,5 @@
   @import "node_modules/bulma/sass/elements/_all.sass";
   @import "node_modules/bulma/sass/grid/_all.sass";
   @import "node_modules/bulma/sass/components/_all.sass";
+  @import "css/styles.scss";
 </style>

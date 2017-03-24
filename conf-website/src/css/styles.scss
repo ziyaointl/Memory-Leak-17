@@ -1,0 +1,20 @@
+//colors
+$iceberg: #73A0D6;
+$independence: #3A506B;
+
+#large-logo {
+    color: $iceberg;
+    font-size: 100px;
+    font-weight: 100;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#year {
+    font-weight: 300;
+}
+
+.subtitle {
+    color: $independence;
+    font-size: 20px;
+}
