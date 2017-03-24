@@ -34,9 +34,27 @@
           <h2 class="subtitle">August 9, 2017</h2>
         </div>
       </div>
-
     </section>
 
+    <hr>
+
+    <div class="container content">
+      <div class="columns is-mobile">
+        <div class="column is-8-desktop is-offset-2-desktop is-8-tablet is-offset-2-tablet">
+
+          <h1>About</h1>
+          <p>
+            I/O Exception is a non-proft tech conference hosted for young developers, by young developers. The goal of this conference
+            is to establish a platform where student developers can meet each other, share their ideas, and collaborate on
+            programming projects.
+          </p>
+          <p>
+            Signup portal is not yet open. To receive the latest updates, please subscribe to our mailing list.
+          </p>
+
+        </div>
+      </div>
+    </div>
 
   </div>
 </template>

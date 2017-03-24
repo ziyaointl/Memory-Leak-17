@@ -18,3 +18,10 @@ $independence: #3A506B;
     color: $independence;
     font-size: 20px;
 }
+
+@media (max-width: $tablet) {
+    .content {
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+}
