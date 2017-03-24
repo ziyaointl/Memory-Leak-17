@@ -9,14 +9,14 @@
       </div>
 
       <!--Toggle button, only visible on mobile-->
-      <span class="nav-toggle">
+      <span class="nav-toggle" @click="toggleMenu" v-bind:class="{ 'is-active': menuActive }">
         <span></span>
         <span></span>
         <span></span>
       </span>
 
       <!-- nav-menu is hidden on mobile -->
-      <div class="nav-right nav-menu">
+      <div class="nav-right nav-menu" v-bind:class="{ 'is-active': menuActive }">
         <a class="nav-item">Home</a>
         <a class="nav-item">Schedule</a>
         <a class="nav-item">About</a>
@@ -31,7 +31,12 @@
     name: 'app',
     data() {
       return {
-        msg: 'Welcome to Your Vue.js App'
+        menuActive: false
+      }
+    },
+    methods: {
+      toggleMenu() {
+        this.menuActive = !this.menuActive;
       }
     }
   }
