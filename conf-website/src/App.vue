@@ -1,18 +1,40 @@
 <template>
   <div id="app">
-    
+    <div class="container">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item">
+          <h1>I/O Exception</h1>
+        </a>
+      </div>
+
+      <!--Toggle button, only visible on mobile-->
+      <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+
+      <!-- nav-menu is hidden on mobile -->
+      <div class="nav-right nav-menu">
+        <a class="nav-item">Home</a>
+        <a class="nav-item">Schedule</a>
+        <a class="nav-item">About</a>
+      </div>
+    </nav>
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
+  export default {
+    name: 'app',
+    data() {
+      return {
+        msg: 'Welcome to Your Vue.js App'
+      }
     }
   }
-}
 </script>
 
 <style lang="scss">
@@ -22,6 +44,4 @@ export default {
   @import "node_modules/bulma/sass/elements/_all.sass";
   @import "node_modules/bulma/sass/grid/_all.sass";
   @import "node_modules/bulma/sass/components/_all.sass";
-
-
 </style>
