@@ -31,6 +31,13 @@ export default {
 </script>
 
 <style lang="scss">
+  @import "node_modules/bulma/sass/utilities/_all.sass";
+  @import "node_modules/bulma/sass/base/_all.sass";
+  @import "node_modules/bulma/sass/layout/_all.sass";
+  @import "node_modules/bulma/sass/elements/_all.sass";
+  @import "node_modules/bulma/sass/grid/_all.sass";
+  @import "node_modules/bulma/sass/components/_all.sass";
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
