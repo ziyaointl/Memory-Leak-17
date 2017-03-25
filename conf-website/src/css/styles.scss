@@ -1,13 +1,28 @@
-//colors
+//Colors
 $iceberg: #73A0D6;
 $independence: #3A506B;
 
+//Overrides
+$primary: $iceberg;
+
+//Imports
+@import "node_modules/bulma/sass/utilities/_all.sass";
+@import "node_modules/bulma/sass/base/_all.sass";
+@import "node_modules/bulma/sass/layout/_all.sass";
+@import "node_modules/bulma/sass/elements/_all.sass";
+@import "node_modules/bulma/sass/grid/_all.sass";
+@import "node_modules/bulma/sass/components/_all.sass";
+
 #large-logo {
     color: $iceberg;
-    font-size: 100px;
     font-weight: 100;
-    padding-top: 30px;
+    font-size: 50px;
     padding-bottom: 30px;
+}
+
+.content {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 #year {
@@ -15,13 +30,22 @@ $independence: #3A506B;
 }
 
 .subtitle {
-    color: $independence;
-    font-size: 20px;
-}
-
-@media (max-width: $tablet) {
+    color: lighten($independence, 30);
+    font-size: 25px;
+} //Screen size tablet and above
+@media (min-width: $tablet) {
     .content {
-    margin-left: 30px;
-    margin-right: 30px;
+        margin: auto;
+    }
+    #large-logo {
+        font-size: 90px;
+    }
+    .justified {
+        text-align: justify;
+    }
+} //Screen size desktop and above
+@media (min-width: $desktop) {
+    #large-logo {
+        font-size: 100px;
     }
 }
