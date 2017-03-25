@@ -40,11 +40,11 @@
 
     <hr>
 
-    <div class="container content">
+    <div class="container content section">
       <div class="columns is-mobile">
         <div class="column is-8-desktop is-offset-2-desktop is-8-tablet is-offset-2-tablet">
 
-          <h1 class="has-text-centered">About</h1>
+          <h1 class="has-text-centered section-title">About</h1>
           <p class="justified">
             I/O Exception is a non-proft tech conference hosted for young developers, by young developers. The goal of this conference
             is to establish a platform where student developers can meet each other, share their ideas, and collaborate on
@@ -60,10 +60,13 @@
 
     <hr>
 
-    <div class="container content">
+    <div class="container content section">
       <div class="columns is-mobile">
-        <div class="column">
-          <h1 class="has-text-centered">Sponsors</h1>
+        <div class="column has-text-centered">
+          <h1 class="section-title">Sponsors</h1>
+          <figure class="image is-128x128 centered">
+            <img src="./assets/power-unity.jpg" alt="Power-Unity">
+          </figure>
         </div>
       </div>
     </div>

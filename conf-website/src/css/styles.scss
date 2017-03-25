@@ -13,6 +13,15 @@ $primary: $iceberg;
 @import "node_modules/bulma/sass/grid/_all.sass";
 @import "node_modules/bulma/sass/components/_all.sass";
 
+.content .section-title {
+    padding-bottom: 30px;
+}
+
+.centered {
+    display: block;
+    margin: auto;
+}
+
 #large-logo {
     color: $iceberg;
     font-weight: 100;
