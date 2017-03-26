@@ -46,7 +46,7 @@
 
           <h1 class="has-text-centered section-title">About</h1>
           <p class="justified">
-            I/O Exception is a non-proft tech conference hosted for young developers, by young developers. The goal of this conference
+            I/O Exception is a non-profit tech conference hosted for young developers, by young developers. The goal of this conference
             is to establish a platform where student developers can meet each other, share their ideas, and collaborate on
             programming projects.
           </p>
