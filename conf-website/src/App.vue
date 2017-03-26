@@ -7,16 +7,16 @@
         <div class="card">
           <header class="card-header">
             <p class="card-header-title">
-              Sign Up
+              报名
             </p>
           </header>
           <div class="card-content">
             <div class="content">
               <p>
-                Sign Up portal is not yet open. To receive the latest updates, please subscribe to our mailing list.
+                报名通道暂时还没有开启。如果您对这个会议感兴趣，我们诚恳地邀请您留下您的邮箱。我们会在报名通道开放的第一时间通知您。
               </p>
               <p>
-                (I still need to hook up MailGun, so the submit button does nothing as of yet)
+                (我还需要捣鼓一下MailGun，现在邮件服务暂时无法使用)
               </p>
               <div class="field has-addons is-grouped">
                 <p class="control has-icon is-expanded">
@@ -27,7 +27,7 @@
                 </p>
                 <p class="control">
                   <a class="button is-primary">
-                    Submit
+                    提交
                   </a>
                 </p>
               </div>
@@ -57,9 +57,10 @@
 
             <!-- nav-menu is hidden on mobile -->
             <div class="nav-right nav-menu" v-bind:class="{ 'is-active': menuActive }">
-              <a class="nav-item is-tab">Home</a>
-              <a class="nav-item is-tab">Schedule</a>
-              <a class="nav-item is-tab">About</a>
+              <a class="nav-item is-tab">主页</a>
+              <a class="nav-item is-tab">关于</a>
+              <a class="nav-item is-tab">合作伙伴</a>
+              <a class="nav-item is-tab">日程</a>
             </div>
           </nav>
         </div>
@@ -69,9 +70,9 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 id="large-logo"><span id="io">I/O</span> Exception <span id="year">17</span></h1>
-          <h2 class="sub-info">Jinan, Shandong</h2>
-          <h2 class="sub-info">August 9, 2017</h2>
-          <a class="button is-primary is-outlined" @click="clickedSignUp">Sign Up</a>
+          <h2 class="sub-info">山东 济南</h2>
+          <h2 class="sub-info">2017年8月9日</h2>
+          <a class="button is-primary is-outlined" @click="clickedSignUp">报名</a>
         </div>
       </div>
     </section>
@@ -82,14 +83,12 @@
       <div class="columns is-mobile">
         <div class="column is-8-desktop is-offset-2-desktop is-8-tablet is-offset-2-tablet">
 
-          <h1 class="has-text-centered section-title">About</h1>
+          <h1 class="has-text-centered section-title">关于</h1>
           <p class="justified">
-            I/O Exception is a non-profit tech conference hosted for young developers, by young developers. The goal of this conference
-            is to establish a platform where student developers can meet each other, share their ideas, and collaborate on
-            programming projects.
+            I/O Exception是一个为青少年开发者举办的、由青少年开发者发起的非营利性的会议。我们的目标是为学生开发者们提供一个认识彼此、交流想法、项目合作的平台。
           </p>
           <p>
-            Sign Up portal is not yet open. To receive the latest updates, please subscribe to our mailing list.
+            报名通道暂时还没有开启。如果您对这个会议感兴趣，我们诚恳地邀请您留下您的邮箱。我们会在报名通道开放的第一时间通知您。
           </p>
 
         </div>
@@ -101,7 +100,7 @@
     <div class="container content section">
       <div class="columns is-mobile">
         <div class="column has-text-centered">
-          <h1 class="section-title">Sponsors</h1>
+          <h1 class="section-title">合作伙伴</h1>
           <figure class="image is-128x128 centered">
             <img src="./assets/power-unity.jpg" alt="Power-Unity">
           </figure>
@@ -112,7 +111,7 @@
     <footer class="footer">
       <div class="container">
         <div class="content has-text-centered">
-          <p>Not sure what to put in the footer yet :p</p>
+          <p>暂时不知道在footer里面写点啥好:p</p>
         </div>
       </div>
     </footer>
