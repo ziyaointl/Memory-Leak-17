@@ -6,3 +6,5 @@ new Vue({
   el: '#app',
   render: h => h(App)
 })
+
+var img = require('./assets/power-unity.jpg');
