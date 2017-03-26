@@ -38,10 +38,13 @@ $primary: $iceberg;
     font-weight: 300;
 }
 
-.subtitle {
-    color: lighten($independence, 30);
+.sub-info {
+    color: $iceberg;
     font-size: 25px;
-} //Screen size tablet and above
+    margin-bottom: 30px;
+}
+
+//Screen size tablet and above
 @media (min-width: $tablet) {
     .content {
         margin: auto;
@@ -52,7 +55,9 @@ $primary: $iceberg;
     .justified {
         text-align: justify;
     }
-} //Screen size desktop and above
+}
+
+//Screen size desktop and above
 @media (min-width: $desktop) {
     #large-logo {
         font-size: 100px;

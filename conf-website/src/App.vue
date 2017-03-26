@@ -32,8 +32,9 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 id="large-logo"><span id="io">I/O</span> Exception <span id="year">17</span></h1>
-          <h2 class="subtitle">Jinan, Shandong</h2>
-          <h2 class="subtitle">August 9, 2017</h2>
+          <h2 class="sub-info">Jinan, Shandong</h2>
+          <h2 class="sub-info">August 9, 2017</h2>
+          <a class="button is-primary is-outlined">Sign Up</a>
         </div>
       </div>
     </section>
