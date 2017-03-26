@@ -13,12 +13,12 @@
           <div class="card-content">
             <div class="content">
               <p>
-                Signup portal is not yet open. To receive the latest updates, please subscribe to our mailing list.
+                Sign Up portal is not yet open. To receive the latest updates, please subscribe to our mailing list.
               </p>
               <p>
                 (I still need to hook up MailGun, so the submit button does nothing as of yet)
               </p>
-              <div class="field has-addons">
+              <div class="field has-addons is-grouped">
                 <p class="control has-icon is-expanded">
                   <input class="input" type="email" placeholder="Email">
                   <span class="icon is-small">
@@ -89,7 +89,7 @@
             programming projects.
           </p>
           <p>
-            Signup portal is not yet open. To receive the latest updates, please subscribe to our mailing list.
+            Sign Up portal is not yet open. To receive the latest updates, please subscribe to our mailing list.
           </p>
 
         </div>
