@@ -10,7 +10,7 @@
               报名
             </p>
           </header>
-          <div class="card-content">
+          <div class="card-content is-clearfix">
             <div class="content">
               <p>
                 报名通道暂时还没有开启。如果您对这个会议感兴趣，我们诚恳地邀请您留下您的邮箱。我们会在报名通道开放的第一时间通知您。
@@ -18,19 +18,22 @@
               <p>
                 (我还需要捣鼓一下MailGun，现在邮件服务暂时无法使用)
               </p>
-              <div class="field has-addons is-grouped">
-                <p class="control has-icon is-expanded">
-                  <input class="input" type="email" placeholder="Email">
-                  <span class="icon is-small">
-                  <i class="fa fa-envelope"></i>
-                  </span>
-                </p>
-                <p class="control">
-                  <a class="button is-primary">
-                    提交
-                  </a>
-                </p>
-              </div>
+
+              <form action="//surge.us15.list-manage.com/subscribe/post?u=848a97679ebd15de76689a207&amp;id=8abf1c54b9" method="post" id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="field has-addons is-grouped">
+                  <p class="control has-icon is-expanded">
+                    <input class="input" type="email" placeholder="Email" name="EMAIL" id="mce-EMAIL">
+                    <span class="icon is-small">
+                    <i class="fa fa-envelope"></i>
+                    </span>
+                  </p>
+                  <p class="control">
+                    <input type="submit" value="提交" name="subscribe" id="mc-embedded-subscribe" class="button is-primary is-pulled-right">
+                  </p>
+                </div>
+              </form>
+
             </div>
           </div>
         </div>
