@@ -1,6 +1,43 @@
 <template>
   <div id="app">
 
+    <div class="modal" id="signUpModal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Sign Up
+            </p>
+          </header>
+          <div class="card-content">
+            <div class="content">
+              <p>
+                Signup portal is not yet open. To receive the latest updates, please subscribe to our mailing list.
+              </p>
+              <p>
+                (I still need to hook up MailGun, so the submit button does nothing as of yet)
+              </p>
+              <div class="field has-addons">
+                <p class="control has-icon is-expanded">
+                  <input class="input" type="email" placeholder="Email">
+                  <span class="icon is-small">
+                  <i class="fa fa-envelope"></i>
+                  </span>
+                </p>
+                <p class="control">
+                  <a class="button is-primary">
+                    Submit
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="modal-close" @click="closeSignUp"></button>
+    </div>
+
     <section class="hero is-fullheight">
       <div class="hero-head">
         <div class="container">
@@ -34,7 +71,7 @@
           <h1 id="large-logo"><span id="io">I/O</span> Exception <span id="year">17</span></h1>
           <h2 class="sub-info">Jinan, Shandong</h2>
           <h2 class="sub-info">August 9, 2017</h2>
-          <a class="button is-primary is-outlined">Sign Up</a>
+          <a class="button is-primary is-outlined" @click="clickedSignUp">Sign Up</a>
         </div>
       </div>
     </section>
@@ -94,6 +131,14 @@
     methods: {
       toggleMenu() {
         this.menuActive = !this.menuActive;
+      },
+      clickedSignUp() {
+        let element = document.getElementById("signUpModal");
+        element.classList.add("is-active");
+      },
+      closeSignUp() {
+        let element = document.getElementById("signUpModal");
+        element.classList.remove("is-active");
       }
     }
   }
