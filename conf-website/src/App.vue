@@ -16,7 +16,7 @@
                 报名通道暂时还没有开启。如果您对这个会议感兴趣，我们诚恳地邀请您留下您的邮箱。我们会在报名通道开放的第一时间通知您。
               </p>
               <p>
-                (我还需要捣鼓一下MailGun，现在邮件服务暂时无法使用)
+                (成功使用了MailChimp，不过由于现在会议名字没有定下来，所以我们没有域名，发件人可能会显示为我的个人邮箱)
               </p>
 
               <form action="//surge.us15.list-manage.com/subscribe/post?u=848a97679ebd15de76689a207&amp;id=8abf1c54b9" method="post" id="mc-embedded-subscribe-form"
