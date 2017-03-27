@@ -41,7 +41,8 @@
       <button class="modal-close" @click="closeSignUp"></button>
     </div>
 
-    <section class="hero is-fullheight">
+    <section class="hero is-fullheight" id="home">
+      <div id="particle-ground"></div>
       <div class="hero-head">
         <div class="container">
           <nav class="nav">
@@ -80,7 +81,7 @@
       </div>
     </section>
 
-    <hr>
+    <hr id="hr1">
 
     <div class="container content section">
       <div class="columns is-mobile">

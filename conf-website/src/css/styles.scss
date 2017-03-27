@@ -13,6 +13,16 @@ $primary: $iceberg;
 @import "node_modules/bulma/sass/grid/_all.sass";
 @import "node_modules/bulma/sass/components/_all.sass";
 
+#hr1 {
+    margin-top: 0;
+}
+
+#particle-ground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
 .content .section-title {
     padding-bottom: 30px;
 }
