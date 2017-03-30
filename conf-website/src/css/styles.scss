@@ -13,6 +13,18 @@ $primary: $iceberg;
 @import "node_modules/bulma/sass/grid/_all.sass";
 @import "node_modules/bulma/sass/components/_all.sass";
 
+.icon {
+    color: lighten(#000000, 40);
+}
+
+.icon:hover {
+    color: #000;
+}
+
+.footer {
+    height: 50px;
+}
+
 #hr1 {
     margin-top: 0;
 }

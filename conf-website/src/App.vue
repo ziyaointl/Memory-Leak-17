@@ -114,8 +114,11 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="content has-text-centered">
-          <p>暂时不知道在footer里面写点啥好:p</p>
+        <div class="has-text-centered">
+          <!--<p>暂时不知道在footer里面写点啥好:p</p>-->
+          <a href="#" class="icon is-medium">
+            <i class="fa fa-github" aria-hidden="true" id="github"></i>
+          </a>
         </div>
       </div>
     </footer>
