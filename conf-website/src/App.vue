@@ -21,7 +21,7 @@
 
               <form action="//surge.us15.list-manage.com/subscribe/post?u=848a97679ebd15de76689a207&amp;id=8abf1c54b9" method="post" id="mc-embedded-subscribe-form"
                 name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div id="field has-addons is-grouped">
+                <div class="field has-addons is-grouped">
                   <p class="control has-icon is-expanded">
                     <input class="input" type="email" placeholder="Email" name="EMAIL" id="mce-EMAIL">
                     <span class="icon is-small">
@@ -73,10 +73,10 @@
 
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 id="large-logo">Memory Leak <span id="year">17</span></h1>
-          <h2 class="sub-info">山东 济南</h2>
-          <h2 class="sub-info">2017年8月9日</h2>
-          <a class="button is-primary is-outlined" @click="clickedSignUp">报名</a>
+          <h1 class="fade-in" id="large-logo">Memory Leak <span id="year">17</span></h1>
+          <h2 class="sub-info fade-in">山东 济南</h2>
+          <h2 class="sub-info fade-in">2017年8月9日</h2>
+          <a class="button is-primary is-outlined fade-in" @click="clickedSignUp">报名</a>
         </div>
       </div>
     </section>

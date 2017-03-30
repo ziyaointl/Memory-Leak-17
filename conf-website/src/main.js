@@ -16,4 +16,6 @@ window.onload = function() {
     lineColor: '#f2f2f2',
     density: 8000
   });
+
+  window.Velocity(document.getElementsByClassName('fade-in'), "transition.slideUpIn", {stagger: 250});
 }
