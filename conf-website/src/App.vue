@@ -48,7 +48,7 @@
           <nav class="nav">
             <div class="nav-left">
               <a class="nav-item">
-                <h1 id="small-logo">I/O Exception</h1>
+                <h1 id="small-logo">Memory Leak</h1>
               </a>
             </div>
 
@@ -73,7 +73,7 @@
 
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 id="large-logo"><span id="io">I/O</span> Exception <span id="year">17</span></h1>
+          <h1 id="large-logo">Memory Leak <span id="year">17</span></h1>
           <h2 class="sub-info">山东 济南</h2>
           <h2 class="sub-info">2017年8月9日</h2>
           <a class="button is-primary is-outlined" @click="clickedSignUp">报名</a>
@@ -89,7 +89,7 @@
 
           <h1 class="has-text-centered section-title">关于</h1>
           <p class="justified">
-            I/O Exception是一个为青少年开发者举办的、由青少年开发者发起的非营利性的会议。我们的目标是为学生开发者们提供一个认识彼此、交流想法、项目合作的平台。
+            Memory Leak是一个为青少年开发者举办的、由青少年开发者发起的非营利性的会议。我们的目标是为学生开发者们提供一个认识彼此、交流想法、项目合作的平台。
           </p>
           <p>
             报名通道暂时还没有开启。如果您对这个会议感兴趣，我们诚恳地邀请您留下您的邮箱。我们会在报名通道开放的第一时间通知您。
