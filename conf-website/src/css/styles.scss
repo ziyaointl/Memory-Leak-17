@@ -49,6 +49,10 @@ $primary: $iceberg;
     margin-bottom: 30px;
 }
 
+.round-corners {
+    border-radius: 10px;
+}
+
 //Screen size tablet and above
 @media (min-width: $tablet) {
     .content {

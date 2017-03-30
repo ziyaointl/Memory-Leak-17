@@ -106,7 +106,7 @@
         <div class="column has-text-centered">
           <h1 class="section-title">合作伙伴</h1>
           <figure class="image is-128x128 centered">
-            <img src="./assets/power-unity.jpg" alt="Power-Unity">
+            <img src="./assets/power-unity.jpg" alt="Power-Unity" class="round-corners">
           </figure>
         </div>
       </div>
