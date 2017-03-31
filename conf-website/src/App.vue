@@ -64,7 +64,7 @@
               <a class="nav-item is-tab" @click="scrollTo('home')">主页</a>
               <a class="nav-item is-tab" @click="scrollTo('about')">关于</a>
               <a class="nav-item is-tab" @click="scrollTo('partners')">合作伙伴</a>
-              <a class="nav-item is-tab">日程</a>
+              <!--<a class="nav-item is-tab">日程</a>-->
             </div>
           </nav>
         </div>
