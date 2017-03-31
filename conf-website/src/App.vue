@@ -61,9 +61,9 @@
 
             <!-- nav-menu is hidden on mobile -->
             <div class="nav-right nav-menu" v-bind:class="{ 'is-active': menuActive }">
-              <a class="nav-item is-tab">主页</a>
-              <a class="nav-item is-tab">关于</a>
-              <a class="nav-item is-tab">合作伙伴</a>
+              <a class="nav-item is-tab" @click="scrollTo('home')">主页</a>
+              <a class="nav-item is-tab" @click="scrollTo('about')">关于</a>
+              <a class="nav-item is-tab" @click="scrollTo('partners')">合作伙伴</a>
               <a class="nav-item is-tab">日程</a>
             </div>
           </nav>
@@ -83,7 +83,7 @@
 
     <hr id="hr1">
 
-    <div class="container content section">
+    <div class="container content section" id="about">
       <div class="columns is-mobile">
         <div class="column is-8-desktop is-offset-2-desktop is-8-tablet is-offset-2-tablet">
 
@@ -101,7 +101,7 @@
 
     <hr>
 
-    <div class="container content section">
+    <div class="container content section" id="partners">
       <div class="columns is-mobile">
         <div class="column has-text-centered">
           <h1 class="section-title">合作伙伴</h1>
@@ -159,6 +159,13 @@
           });
           this.fadeLoaded = true
         }
+      },
+      scrollTo(id) {
+        let element = document.getElementById(id);
+        window.Velocity(element, "scroll", {
+          duration: 500,
+          easing: "ease-in-out"
+        });
       }
     },
     mounted() {
