@@ -28,6 +28,8 @@
                     <i class="fa fa-envelope"></i>
                     </span>
                   </p>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_848a97679ebd15de76689a207_8abf1c54b9" tabindex="-1" value=""></div>
                   <p class="control">
                     <input type="submit" value="提交" name="subscribe" id="mc-embedded-subscribe" class="button is-primary is-pulled-right">
                   </p>
