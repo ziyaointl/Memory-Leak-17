@@ -168,6 +168,9 @@
           duration: 500,
           easing: "ease-in-out"
         });
+      },
+      closeModals() {
+        this.closeSignUp();
       }
     },
     mounted() {
@@ -175,6 +178,14 @@
         this.fadeInTitle();
       }
       document.addEventListener("visibilitychange", this.handleVisibilityChange);
+    },
+    created() {
+      let vm = this;
+      window.addEventListener('keyup', function(e) {
+        if (e.keyCode === 27) {
+          vm.closeModals();
+        }
+      });
     }
   }
 </script>
