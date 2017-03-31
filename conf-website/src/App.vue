@@ -131,7 +131,8 @@
     name: 'app',
     data() {
       return {
-        menuActive: false
+        menuActive: false,
+        fadeLoaded: false
       }
     },
     methods: {
@@ -145,7 +146,26 @@
       closeSignUp() {
         let element = document.getElementById("signUpModal");
         element.classList.remove("is-active");
+      },
+      handleVisibilityChange() {
+        if (!document.hidden) {
+          this.fadeInTitle();
+        }
+      },
+      fadeInTitle() {
+        if (!this.fadeLoaded) {
+          window.Velocity(document.getElementsByClassName('fade-in'), "transition.slideUpIn", {
+            stagger: 300
+          });
+          this.fadeLoaded = true
+        }
       }
+    },
+    mounted() {
+      if (!document.hidden) {
+        this.fadeInTitle();
+      }
+      document.addEventListener("visibilitychange", this.handleVisibilityChange);
     }
   }
 </script>

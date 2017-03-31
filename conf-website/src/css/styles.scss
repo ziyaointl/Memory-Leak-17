@@ -13,6 +13,10 @@ $primary: $iceberg;
 @import "node_modules/bulma/sass/grid/_all.sass";
 @import "node_modules/bulma/sass/components/_all.sass";
 
+.fade-in {
+    opacity: 0;
+}
+
 .icon {
     color: lighten(#000000, 40);
 }
