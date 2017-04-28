@@ -1,10 +1,8 @@
 //Colors
 $iceberg: #73A0D6;
 $independence: #3A506B;
-
 //Overrides
 $primary: $iceberg;
-
 //Imports
 @import "node_modules/bulma/sass/utilities/_all.sass";
 @import "node_modules/bulma/sass/base/_all.sass";
@@ -12,7 +10,6 @@ $primary: $iceberg;
 @import "node_modules/bulma/sass/elements/_all.sass";
 @import "node_modules/bulma/sass/grid/_all.sass";
 @import "node_modules/bulma/sass/components/_all.sass";
-
 html {
     font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
@@ -73,6 +70,19 @@ html {
     border-radius: 10px;
 }
 
+.logo-icon {
+    width: 130px;
+}
+
+.logo-text {
+    width: 300px;
+    margin-top: 10px; 
+}
+
+#contact-email {
+    margin-right: 10px;
+}
+
 //Screen size tablet and above
 @media (min-width: $tablet) {
     .content {
@@ -84,6 +94,13 @@ html {
     .justified {
         text-align: justify;
     }
+    .logo-icon {
+        width: 200px;
+    }
+    .logo-text {
+        width: 500px;
+        margin: 20px;
+    }
 }
 
 //Screen size desktop and above
@@ -91,17 +108,4 @@ html {
     #large-logo {
         font-size: 100px;
     }
-}
-
-.logo-icon {
-    width: 200px;
-}
-
-.logo-text {
-    width: 500px;
-    margin: 20px;
-}
-
-#contact-email {
-    margin-right: 10px;
 }
