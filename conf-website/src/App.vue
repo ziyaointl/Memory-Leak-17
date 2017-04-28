@@ -72,7 +72,9 @@
 
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="fade-in" id="large-logo">Memory Leak <span id="year">17</span></h1>
+          <!--<h1 class="fade-in" id="large-logo">Memory Leak <span id="year">17</span></h1>-->
+          <div><img src="./assets/logo-icon.svg" alt="" class="logo-icon fade-in"></div>
+          <img src="./assets/logo-text.svg" alt="" class="fade-in logo-text">
           <h2 class="sub-info fade-in">山东 济南</h2>
           <h2 class="sub-info fade-in">2017年8月9日</h2>
           <a class="button is-primary is-outlined fade-in" @click="clickedSignUp">报名</a>
@@ -88,9 +90,12 @@
 
           <h1 class="has-text-centered section-title">关于</h1>
           <p class="justified">
-            Memory Leak是一个为青少年开发者举办的、由青少年开发者发起的非营利性的会议。我们的目标是为学生开发者们提供一个认识彼此、交流想法、项目合作的平台。
+            在高中生群体之中，对计算机感兴趣的同学不在少数。然而，由于一些技术的门槛较高，中文资料较为匮乏，在接受大学教育之前，想要写出自己的一个应用并不容易。即使经过了重重困难在高中阶段掌握了一定的技术，多数人也只是局限于独自开发，想要找到能与自己在更大的项目上合作的开发者并非易事。
           </p>
-          <p>
+          <p class="justified">
+            Memory Leak是一个为青少年开发者举办的、由青少年开发者发起的非营利性的会议。我们的目标是为学生开发者们提供一个认识彼此、交流想法、项目合作的平台。我们希望那些对科技饱含热情的高中生能够有一个机会听取在计算机领域已经有所成就的同龄人的经验，在开发的过程中少走一些弯路，让对科技的热情不因无法入门而退缩，让多人一起实现一个大的项目的梦想成为现实。
+          </p>
+          <p class="justified">
             报名通道暂时还没有开启。如果你对这个会议感兴趣，我们诚恳地邀请你留下邮箱。我们会在报名通道开放的第一时间通知你。
           </p>
 
@@ -107,6 +112,20 @@
           <figure class="image is-128x128 centered">
             <img src="./assets/power-unity.jpg" alt="Power-Unity" class="round-corners">
           </figure>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container content section" id="contact">
+      <div class="columns is-mobile">
+        <div class="column has-text-centered">
+          <h1 class="section-title">联系我们</h1>
+          <p>
+            <i class="fa fa-envelope-o" aria-hidden="true" id="contact-email"></i>
+            <a href="mailto:developer@mleak.org">developer@mleak.org</a>
+          </p>
         </div>
       </div>
     </div>
