@@ -106,6 +106,28 @@
 
     <hr>
 
+    <div class="container">
+      <div class="columns is-mobile">
+        <div class="column is-8-desktop is-offset-2-desktop is-8-tablet is-offset-2-tablet" id="timeline">
+          <div class="timeline-block">
+            <div class="timeline-img">
+              <div class="box">
+                <i class="fa fa-coffee"></i>
+              </div>
+            </div>
+
+            <div class="timeline-content box">
+              <h2 class="speech-title">Title</h2>
+              <p class="speech-author">Author</p>
+              <span class="speech-time">9:00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
     <div class="container content section" id="partners">
       <div class="columns is-mobile">
         <div class="column has-text-centered">

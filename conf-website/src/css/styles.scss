@@ -10,6 +10,7 @@ $primary: $iceberg;
 @import "node_modules/bulma/sass/elements/_all.sass";
 @import "node_modules/bulma/sass/grid/_all.sass";
 @import "node_modules/bulma/sass/components/_all.sass";
+
 html {
     font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
@@ -82,6 +83,61 @@ html {
 
 #contact-email {
     margin-right: 10px;
+}
+
+#timeline {
+  position: relative;
+  padding-right: 40px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 48px;
+  height: 100%;
+  width: 3px;
+  background: lighten($iceberg, 20);
+}
+
+.timeline-content {
+  position: relative;
+  margin-left: 80px;
+}
+
+.speech-title {
+  font-size: 20px;
+}
+
+.speech-author {
+  color: #888;
+}
+
+.timeline-img {
+  position: absolute;
+  top: 0;
+  left: 18px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.timeline-img > div {
+  padding: 0;
+  padding-left: 9px;
+  padding-top: 9px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.timeline-block {
+  position: relative;
+  margin-bottom: 20px;
 }
 
 //Screen size tablet and above
