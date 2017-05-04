@@ -109,17 +109,17 @@
     <div class="container">
       <div class="columns is-mobile">
         <div class="column is-8-desktop is-offset-2-desktop is-8-tablet is-offset-2-tablet" id="timeline">
-          <div class="timeline-block">
+          <div class="timeline-block" v-for="event in timeline">
             <div class="timeline-img">
               <div class="box">
-                <i class="fa fa-coffee"></i>
+                <i :class="'fa fa-fw ' + event.icon"></i>
               </div>
             </div>
 
             <div class="timeline-content box">
-              <h2 class="speech-title">Title</h2>
-              <p class="speech-author">Author</p>
-              <span class="speech-time">9:00</span>
+              <h2 class="speech-title">{{ event.title }}</h2>
+              <p class="speech-author">{{ event.author }}</p>
+              <span class="speech-time">{{ event.time }}</span>
             </div>
           </div>
         </div>
@@ -173,7 +173,117 @@
     data() {
       return {
         menuActive: false,
-        fadeLoaded: false
+        fadeLoaded: false,
+        timeline: [
+          {
+            title: "入场",
+            author: "",
+            time: "8:00",
+            icon: "fa-map-marker"
+          },
+          {
+            title: "开幕式",
+            author: "",
+            time: "9:00",
+            icon: "fa-bank"
+          },
+          {
+            title: "演讲 1",
+            author: "",
+            time: "9:15",
+            icon: "fa-microphone"
+          },
+          {
+            title: "演讲 2",
+            author: "",
+            time: "9:45",
+            icon: "fa-microphone"
+          },
+          {
+            title: "茶歇",
+            author: "",
+            time: "10:15",
+            icon: "fa-coffee"
+          },
+          {
+            title: "演讲 3",
+            author: "",
+            time: "10:30",
+            icon: "fa-microphone"
+          },
+          {
+            title: "小组讨论",
+            author: "",
+            time: "11:00",
+            icon: "fa-comments"
+          },
+          {
+            title: "成果分享",
+            author: "",
+            time: "11:30",
+            icon: "fa-street-view"
+          },
+          {
+            title: "主讲人点评",
+            author: "",
+            time: "12:00",
+            icon: "fa-user"
+          },
+          {
+            title: "午餐",
+            author: "",
+            time: "12:15",
+            icon: "fa-cutlery"
+          },
+          {
+            title: "演讲4",
+            author: "",
+            time: "13:30",
+            icon: "fa-microphone"
+          },
+          {
+            title: "演讲 5",
+            author: "",
+            time: "14:00",
+            icon: "fa-microphone"
+          },
+          {
+            title: "茶歇",
+            author: "",
+            time: "14:30",
+            icon: "fa-coffee"
+          },
+          {
+            title: "演讲 6",
+            author: "",
+            time: "14:45",
+            icon: "fa-microphone"
+          },
+          {
+            title: "小组讨论",
+            author: "",
+            time: "15:15",
+            icon: "fa-comments"
+          },
+          {
+            title: "成果分享",
+            author: "",
+            time: "15:45",
+            icon: "fa-street-view"
+          },
+          {
+            title: "主讲人点评",
+            author: "",
+            time: "16:15",
+            icon: "fa-user"
+          },
+          {
+            title: "闭幕式",
+            author: "",
+            time: "16:30",
+            icon: "fa-bank"
+          }
+        ]
       }
     },
     methods: {
