@@ -109,6 +109,14 @@ html {
   margin-left: 80px;
 }
 
+.box {
+  border: solid;
+  border-width: 1px;
+  border-color: $iceberg;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
 .speech-title {
   font-size: 20px;
 }
@@ -120,19 +128,24 @@ html {
 .timeline-img {
   position: absolute;
   top: 0;
-  left: 17px;
+  left: 13px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  color: $iceberg;
 }
 
 .timeline-img > div {
   padding: 0;
-  padding-left: 7px;
-  padding-top: 9px;
+  padding-left: 10px;
+  padding-top: 14px;
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
+}
+
+.fa-bank {
+  padding-left: 2px;
 }
 
 .timeline-block {
