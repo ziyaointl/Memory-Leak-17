@@ -79,7 +79,8 @@
           <img src="./assets/logo-text.svg" alt="" class="fade-in logo-text">
           <h2 class="sub-info fade-in">山东 济南</h2>
           <h2 class="sub-info fade-in">2017年8月9日</h2>
-          <a class="button is-primary is-outlined fade-in" @click="clickedSignUp">报名</a>
+          <!-- <a class="button is-primary is-outlined fade-in" @click="clickedSignUp">报名</a> -->
+          <a class="button is-primary is-outlined fade-in" href="http://www.huodongxing.com/event/4384474886300">报名</a>
         </div>
       </div>
     </section>
