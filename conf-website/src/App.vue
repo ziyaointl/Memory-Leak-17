@@ -213,14 +213,14 @@
             icon: "fa-bank"
           },
           {
-            title: "演讲 1",
-            author: "",
+            title: "虚拟化技术的优缺点和使用技巧",
+            author: "ZeroWind",
             time: "9:15",
             icon: "fa-microphone"
           },
           {
-            title: "演讲 2",
-            author: "",
+            title: "我是如何hack安全平台的",
+            author: "Junyi",
             time: "9:45",
             icon: "fa-microphone"
           },
@@ -231,8 +231,8 @@
             icon: "fa-coffee"
           },
           {
-            title: "演讲 3",
-            author: "",
+            title: "为什么要使用前端框架？",
+            author: "ziyaointl",
             time: "10:30",
             icon: "fa-microphone"
           },
