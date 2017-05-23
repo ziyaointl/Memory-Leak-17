@@ -1,0 +1,181 @@
+//Colors
+$iceberg: #73A0D6;
+$independence: #3A506B;
+//Overrides
+$primary: $iceberg;
+//Imports
+@import "node_modules/bulma/sass/utilities/_all.sass";
+@import "node_modules/bulma/sass/base/_all.sass";
+@import "node_modules/bulma/sass/layout/_all.sass";
+@import "node_modules/bulma/sass/elements/_all.sass";
+@import "node_modules/bulma/sass/grid/_all.sass";
+@import "node_modules/bulma/sass/components/_all.sass";
+
+html {
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+.fade-in {
+    opacity: 0;
+}
+
+.icon {
+    color: lighten(#000000, 40);
+}
+
+.icon:hover {
+    color: #000;
+}
+
+.footer {
+    height: 50px;
+}
+
+#hr1 {
+    margin-top: 0;
+}
+
+#particle-ground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.content .section-title {
+    padding-bottom: 30px;
+}
+
+.centered {
+    display: block;
+    margin: auto;
+}
+
+#large-logo {
+    color: $iceberg;
+    font-weight: 100;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+#year {
+    font-weight: 300;
+}
+
+.sub-info {
+    color: $iceberg;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.round-corners {
+    border-radius: 10px;
+}
+
+.logo-icon {
+    width: 130px;
+}
+
+.logo-text {
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#contact-email {
+    margin-right: 10px;
+}
+
+#timeline {
+  position: relative;
+  padding-right: 40px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 48px;
+  height: 100%;
+  width: 3px;
+  background: lighten($iceberg, 20);
+}
+
+.timeline-content {
+  position: relative;
+  margin-left: 80px;
+}
+
+.box {
+  border: solid;
+  border-width: 1px;
+  border-color: $iceberg;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+.speech-title {
+  font-size: 20px;
+}
+
+.speech-author {
+  color: #888;
+}
+
+.timeline-img {
+  position: absolute;
+  top: 0;
+  left: 13px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: $iceberg;
+}
+
+.timeline-img > div {
+  padding: 0;
+  padding-left: 10px;
+  padding-top: 14px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.fa-bank {
+  padding-left: 2px;
+}
+
+.timeline-block {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+//Screen size tablet and above
+@media (min-width: $tablet) {
+    .content {
+        margin: auto;
+    }
+    #large-logo {
+        font-size: 90px;
+    }
+    .justified {
+        text-align: justify;
+    }
+    .logo-icon {
+        width: 200px;
+    }
+    .logo-text {
+        width: 500px;
+        margin: 20px;
+    }
+}
+
+//Screen size desktop and above
+@media (min-width: $desktop) {
+    #large-logo {
+        font-size: 100px;
+    }
+}
