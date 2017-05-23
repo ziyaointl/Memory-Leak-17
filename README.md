@@ -1,7 +1,18 @@
-# Tech-Conference
+# conf-website
 
-TODO:
-- [ ] 日期
-- [ ] 命名
-- [ ] 网站/海报
-- [ ] 策划案
+> Website for this summer's tech conference
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+```
+
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).

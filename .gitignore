@@ -1,5 +1,5 @@
 .DS_Store
-conf-website/node_modules/
-conf-website/dist/
-conf-website/npm-debug.log
-conf-website/yarn-error.log
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
