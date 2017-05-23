@@ -1,6 +1,6 @@
 {
-  "name": "conf-website",
-  "description": "Website for this summer's tech conference",
+  "name": "memory-leak-17",
+  "description": "A tech conference",
   "version": "1.0.0",
   "author": "Ziyao Zhang",
   "private": true,
