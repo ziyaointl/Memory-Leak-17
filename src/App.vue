@@ -168,7 +168,11 @@
         <div class="column has-text-centered">
           <h1 class="section-title">联系我们</h1>
           <p>
-            <i class="fa fa-envelope-o" aria-hidden="true" id="contact-email"></i>
+            QQ群:
+            <a href="mailto:developer@mleak.org">458546584</a>
+          </p>
+          <p>
+            Email:
             <a href="mailto:developer@mleak.org">developer@mleak.org</a>
           </p>
         </div>
