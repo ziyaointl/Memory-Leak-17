@@ -231,7 +231,7 @@
             icon: "fa-coffee"
           },
           {
-            title: "为什么要使用前端框架？",
+            title: "前段框架的对比与应用",
             author: "ziyaointl",
             time: "10:30",
             icon: "fa-microphone"
@@ -261,8 +261,8 @@
             icon: "fa-cutlery"
           },
           {
-            title: "演讲4",
-            author: "",
+            title: "How to dominate in First Tech Challenge",
+            author: "Neuron",
             time: "13:30",
             icon: "fa-microphone"
           },
