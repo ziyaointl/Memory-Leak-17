@@ -219,7 +219,7 @@
             icon: "fa-microphone"
           },
           {
-            title: "我是如何hack安全平台的",
+            title: "我是如何 hack 安全平台的",
             author: "Junyi",
             time: "9:45",
             icon: "fa-microphone"
@@ -231,7 +231,7 @@
             icon: "fa-coffee"
           },
           {
-            title: "前段框架的对比与应用",
+            title: "前端框架的对比与应用",
             author: "ziyaointl",
             time: "10:30",
             icon: "fa-microphone"
@@ -267,8 +267,8 @@
             icon: "fa-microphone"
           },
           {
-            title: "演讲 5",
-            author: "",
+            title: "科学上网的正确姿势, 不只有 Shadowsocks",
+            author: "Anonymous",
             time: "14:00",
             icon: "fa-microphone"
           },
