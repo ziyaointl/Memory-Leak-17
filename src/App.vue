@@ -213,14 +213,14 @@
             icon: "fa-bank"
           },
           {
-            title: "虚拟化技术的优缺点和使用技巧",
-            author: "ZeroWind",
+            title: "编程技术居然可以用来做作业",
+            author: "我是如何 hack 安全平台的",
             time: "9:15",
             icon: "fa-microphone"
           },
           {
-            title: "我是如何 hack 安全平台的",
-            author: "Junyi",
+            title: "如何用 Windows 玩转苹果系统",
+            author: "虚拟化技术的优缺点和使用技巧",
             time: "9:45",
             icon: "fa-microphone"
           },
@@ -231,8 +231,8 @@
             icon: "fa-coffee"
           },
           {
-            title: "前端框架的对比与应用",
-            author: "ziyaointl",
+            title: "你也能为自己的学校开发网站",
+            author: "前端框架的对比与应用",
             time: "10:30",
             icon: "fa-microphone"
           },
@@ -261,14 +261,14 @@
             icon: "fa-cutlery"
           },
           {
-            title: "How to dominate in First Tech Challenge",
-            author: "Neuron",
+            title: "怎样用机器人获得9万赞助",
+            author: "FTC中国最高奖项得主教你精通机器人的秘诀",
             time: "13:30",
             icon: "fa-microphone"
           },
           {
-            title: "科学上网的正确姿势, 不只有 Shadowsocks",
-            author: "Anonymous",
+            title: "VPN被封了，出国党该咋办",
+            author: "学长带你玩转国外网站",
             time: "14:00",
             icon: "fa-microphone"
           },
