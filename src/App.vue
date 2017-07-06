@@ -157,6 +157,7 @@
           <figure class="image is-128x128 centered">
             <img src="./assets/power-unity.jpg" alt="Power-Unity" class="round-corners">
           </figure>
+          <p id="pu-text">PowerUnity 社</p>
         </div>
       </div>
     </div>
