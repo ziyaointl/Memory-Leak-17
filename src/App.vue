@@ -77,7 +77,7 @@
           <!--<h1 class="fade-in" id="large-logo">Memory Leak <span id="year">17</span></h1>-->
           <div><img src="./assets/logo-icon.svg" alt="" class="logo-icon fade-in"></div>
           <img src="./assets/logo-text.svg" alt="" class="fade-in logo-text">
-          <h2 class="sub-info fade-in">山东 济南</h2>
+          <h2 class="sub-info fade-in">山东 济南 经十路14668</h2>
           <h2 class="sub-info fade-in">2017年8月9日</h2>
           <!-- <a class="button is-primary is-outlined fade-in" @click="clickedSignUp">报名</a> -->
           <a class="button is-primary is-outlined fade-in" href="http://www.huodongxing.com/event/4384474886300">报名</a>
