@@ -215,7 +215,7 @@
           },
           {
             title: "编程技术居然可以用来做作业",
-            author: "我是如何 hack 安全平台的",
+            author: "我是如何 hack 安全教育平台的",
             time: "9:15",
             icon: "fa-microphone"
           },
