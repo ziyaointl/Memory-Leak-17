@@ -105,24 +105,6 @@
 
     <hr>
 
-    <div class="container content section" id="recruit">
-      <div class="columns is-mobile">
-        <div class="column is-8-desktop is-offset-2-desktop is-8-tablet is-offset-2-tablet">
-
-          <h1 class="has-text-centered section-title">演讲者招募</h1>
-          <p class="has-text-centered">
-            请将演讲的题目发送至<a href="mailto:developer@mleak.org">developer@mleak.org</a>，我们会随后联系您。
-          </p>
-          <p class="has-text-centered">
-            内容没有具体限制，只要是与计算机有关即可。
-          </p>
-
-        </div>
-      </div>
-    </div>
-
-    <hr>
-
     <div class="container section" id="schedule">
       <div class="columns">
         <div class="column has-text-centered content">
