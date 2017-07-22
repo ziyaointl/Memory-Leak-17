@@ -262,33 +262,27 @@
             icon: "fa-coffee"
           },
           {
-            title: "演讲 6",
-            author: "",
-            time: "14:45",
-            icon: "fa-microphone"
-          },
-          {
             title: "小组讨论",
             author: "",
-            time: "15:15",
+            time: "14:45",
             icon: "fa-comments"
           },
           {
             title: "成果分享",
             author: "",
-            time: "15:45",
+            time: "15:15",
             icon: "fa-street-view"
           },
           {
             title: "主讲人点评",
             author: "",
-            time: "16:15",
+            time: "15:45",
             icon: "fa-user"
           },
           {
             title: "闭幕式",
             author: "",
-            time: "16:30",
+            time: "16:00",
             icon: "fa-bank"
           }
         ]
