@@ -202,21 +202,15 @@
             icon: "fa-microphone"
           },
           {
-            title: "如何用 Windows 玩转苹果系统",
-            author: "虚拟化技术的优缺点和使用技巧",
-            time: "9:45",
-            icon: "fa-microphone"
-          },
-          {
             title: "茶歇",
             author: "",
-            time: "10:15",
+            time: "10:00",
             icon: "fa-coffee"
           },
           {
             title: "你也能为自己的学校开发网站",
             author: "前端框架的对比与应用",
-            time: "10:30",
+            time: "10:15",
             icon: "fa-microphone"
           },
           {
@@ -252,7 +246,7 @@
           {
             title: "VPN被封了，出国党该咋办",
             author: "学长带你玩转国外网站",
-            time: "14:00",
+            time: "14:10",
             icon: "fa-microphone"
           },
           {
