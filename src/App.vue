@@ -204,37 +204,37 @@
           {
             title: "茶歇",
             author: "",
-            time: "10:00",
+            time: "9:45",
             icon: "fa-coffee"
           },
           {
             title: "你也能为自己的学校开发网站",
             author: "前端框架的对比与应用",
-            time: "10:15",
+            time: "10:00",
             icon: "fa-microphone"
           },
           {
             title: "小组讨论",
             author: "",
-            time: "11:00",
+            time: "10:45",
             icon: "fa-comments"
           },
           {
             title: "成果分享",
             author: "",
-            time: "11:30",
+            time: "11:15",
             icon: "fa-street-view"
           },
           {
             title: "主讲人点评",
             author: "",
-            time: "12:00",
+            time: "11:45",
             icon: "fa-user"
           },
           {
             title: "午餐",
             author: "",
-            time: "12:15",
+            time: "12:00",
             icon: "fa-cutlery"
           },
           {
